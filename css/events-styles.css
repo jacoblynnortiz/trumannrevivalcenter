@@ -1,0 +1,147 @@
+.events {
+	width: 100%;
+	min-height: 0px;
+	background: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 50px 100px;
+}
+
+.events-header {
+	border-top: 1px solid black;
+	width: 90%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	color: #3c1361;
+}
+
+.events-container {
+	width: 100%;
+	min-height: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.event {
+	width: 300px;
+	height: 300px;
+	margin: 25px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.event-date {
+	width: 60px;
+	height: 60px;
+	background: #3c1361;
+	color: #f1f1f1;
+	position: absolute;
+	top: -20px;
+	right: 20px;
+	text-align: center;
+}
+
+.event-date-multi {
+	width: 120px;
+	height: 60px;
+	background: #3c1361;
+	color: #f1f1f1;
+	position: absolute;
+	top: -20px;
+	right: 20px;
+	text-align: center;
+}
+
+.event h2 {
+	width: 100%;
+	height: 35px;
+	background: lightgrey;
+	padding: 15px;
+	display: flex;
+	color: #3c1361;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	align-items: center;
+}
+
+.event h2 a  {
+	color: #3c1361;
+}
+
+.events-month {
+	width: 100%;
+	min-height: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.events-month-h3 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	padding: 25px;
+	margin: 15px;
+	color: #3c1361;
+	text-decoration: underline;
+}
+
+.event img {
+	width: 100px;
+	height: 100px;
+}
+
+@media only screen and (max-width: 890px) {
+
+	.info-area {
+		flex-direction: column;
+		width: 100%;
+	}
+	.left-panel, .right-panel {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.events-header {
+		font-size: .8rem;
+	}
+
+	.events {
+		padding: 50px 25px;
+	}
+
+	.events-month-h3 {
+		font-size: 1.3rem;
+		padding: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 720px) {
+	.events-header {
+		margin: 15px 0px;
+	}
+
+	.events {
+		padding: 50px 10px;
+	}
+
+	.events-month-h3 {
+		font-size: 1.1rem;
+	}
+
+}
